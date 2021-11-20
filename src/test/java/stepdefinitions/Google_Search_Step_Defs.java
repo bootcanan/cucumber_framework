@@ -76,7 +76,10 @@ public class Google_Search_Step_Defs {
     public void verify_the_result_is(String string) {
   Assert.assertTrue(Driver.getDriver().getTitle().contains(string));
     }
-
+    @Given("user is on {string} page")
+    public void user_is_on_the_page(String url) {
+       Driver.getDriver().get(ConfigReader.getProperty(url));
+    }
 
 
 }
