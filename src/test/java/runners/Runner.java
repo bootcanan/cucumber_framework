@@ -19,6 +19,8 @@ tag:which feature files to run.
 */
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin = {"html:target\\cucumber-reports6.html"},
+
 
 features = "src/test/resources/features",
 glue = "stepdefinitions",

@@ -16,5 +16,9 @@ public class Amazon_Page {
     @FindBy(id="twotabsearchtextbox")
     public WebElement searchBox;
 
+ @FindBy(xpath = "//a[text()=\"Black Friday Week\"]")
+    public WebElement blackFriday;
 
+ @FindBy(xpath = "//span[text()=\"Turkish Coffee Mehmet Efend500g\"]")
+    public WebElement firstProduct;
 }
