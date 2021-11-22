@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="40.957">
+    <testcase classname="US03_Yandex Arama" name="TC03 Iphone arama" time="15.199">
+        <system-out>
+            <![CDATA[Given user is on the yandex page............................................passed
+When user search for iphone on yandex.......................................passed
+Then verify the result is iphone on yandex..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US03_Yandex Arama" name="TC03 Tea pot arama" time="9.344">
+        <system-out>
+            <![CDATA[Given user is on the yandex page............................................passed
+When user search tea pot on yandex..........................................passed
+Then verify the result is tea pot on yandex.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US@wip07_Koala_Resort_Positive_Login" name="TC01 user can login" time="15.726">
+        <system-out>
+            <![CDATA[Given user is on koala Resort page..........................................passed
+Then click Log in button....................................................passed
+And write the username......................................................passed
+And write the password......................................................passed
+And click the log in button.................................................passed
+Then Verify the login is success............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

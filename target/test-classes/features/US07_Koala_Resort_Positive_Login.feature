@@ -1,3 +1,4 @@
+@report2
 Feature: US@wip07_Koala_Resort_Positive_Login
 
   Scenario: TC01 user can login

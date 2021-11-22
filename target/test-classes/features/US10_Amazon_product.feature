@@ -1,5 +1,6 @@
+@report1
 Feature: US10_Amazon_product search
-  @wip
+
   Scenario: TC user search Mehmet on Amazon
     Given user is on "amazon_url" page
     Then user clicked on today's deal

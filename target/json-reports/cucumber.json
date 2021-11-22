@@ -1,0 +1,316 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user is on the yandex page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8519212400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the yandex page",
+            "match": {
+              "location": "stepdefinitions.Yandex_Step_Defs.user_is_on_the_yandex_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-22T11:40:41.178Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2033200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "TC03 Iphone arama",
+        "description": "",
+        "id": "us03-yandex-arama;tc03-iphone-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 2864775800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2648694300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user search for iphone on yandex",
+            "match": {
+              "location": "stepdefinitions.Yandex_Step_Defs.user_search_for_iphone_on_yandex()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1133219400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the result is iphone on yandex",
+            "match": {
+              "location": "stepdefinitions.Yandex_Step_Defs.verify_the_result_is_iphone_on_yandex()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@report2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user is on the yandex page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5360027900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the yandex page",
+            "match": {
+              "location": "stepdefinitions.Yandex_Step_Defs.user_is_on_the_yandex_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-22T11:40:56.408Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "TC03 Tea pot arama",
+        "description": "",
+        "id": "us03-yandex-arama;tc03-tea-pot-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 1289201300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 425877200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user search tea pot on yandex",
+            "match": {
+              "location": "stepdefinitions.Yandex_Step_Defs.user_search_tea_pot_on_yandex()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2266930100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify the result is tea pot on yandex",
+            "match": {
+              "location": "stepdefinitions.Yandex_Step_Defs.verify_the_result_is_tea_pot_on_yandex()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@report2"
+          }
+        ]
+      }
+    ],
+    "name": "US03_Yandex Arama",
+    "description": "",
+    "id": "us03-yandex-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US03_Yandex_Arama.feature",
+    "tags": [
+      {
+        "name": "@report2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-22T11:41:05.792Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TC01 user can login",
+        "description": "",
+        "id": "us@wip07-koala-resort-positive-login;tc01-user-can-login",
+        "after": [
+          {
+            "result": {
+              "duration": 815964300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7738808200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on koala Resort page",
+            "match": {
+              "location": "stepdefinitions.Koala_Resort_Step_Defs.user_is_on_koala_resort_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 961398200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click Log in button",
+            "match": {
+              "location": "stepdefinitions.Koala_Resort_Step_Defs.click_log_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189625100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "write the username",
+            "match": {
+              "location": "stepdefinitions.Koala_Resort_Step_Defs.write_the_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186104100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "write the password",
+            "match": {
+              "location": "stepdefinitions.Koala_Resort_Step_Defs.write_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5693675400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click the log in button",
+            "match": {
+              "location": "stepdefinitions.Koala_Resort_Step_Defs.click_the_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133795900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify the login is success",
+            "match": {
+              "location": "stepdefinitions.Koala_Resort_Step_Defs.verify_the_login_is_success()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@report2"
+          }
+        ]
+      }
+    ],
+    "name": "US@wip07_Koala_Resort_Positive_Login",
+    "description": "",
+    "id": "us@wip07-koala-resort-positive-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US07_Koala_Resort_Positive_Login.feature",
+    "tags": [
+      {
+        "name": "@report2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

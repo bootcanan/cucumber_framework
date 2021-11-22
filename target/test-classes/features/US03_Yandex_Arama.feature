@@ -1,4 +1,4 @@
-
+@report2
 Feature: US03_Yandex Arama
 
   Background: user is on the yandex page
@@ -10,4 +10,3 @@ Feature: US03_Yandex Arama
       Scenario: TC03 Tea pot arama
         When user search tea pot on yandex
         Then verify the result is tea pot on yandex
-        And close the application
