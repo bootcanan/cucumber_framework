@@ -1,4 +1,4 @@
-
+@smoke
 Feature: US04 Google Parameterize
 
   Background:

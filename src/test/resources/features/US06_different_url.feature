@@ -1,3 +1,4 @@
+@regression
 Feature: US_Different url
 
   Scenario Outline:

@@ -8,6 +8,9 @@ import org.openqa.selenium.TakesScreenshot;
 import utilities.Driver;
 
 public class Hooks {
+    //Hooks has before and after methods
+    //We use hooks for taking screenshots
+    //We use hooks in our framework to take screenshot of failed scenario
     @Before
     public void setUp(){
 

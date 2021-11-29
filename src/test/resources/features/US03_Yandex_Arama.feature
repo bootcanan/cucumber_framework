@@ -1,4 +1,4 @@
-@report2
+@yandex
 Feature: US03_Yandex Arama
 
   Background: user is on the yandex page

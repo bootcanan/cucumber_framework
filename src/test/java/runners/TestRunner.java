@@ -26,7 +26,7 @@ tag:which feature files to run.
 
 features = "src/test/resources/features",
 glue = "stepdefinitions",
-        tags = "@report1",
+        tags = "@",
      dryRun=false
 
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="39.872">
+    <testcase classname="US_Different url" name="_2" time="21.129">
+        <system-out>
+            <![CDATA[Given user is on "amazon_url" page..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US_Different url" name="_3" time="10.557">
+        <system-out>
+            <![CDATA[Given user is on "yandex_url" page..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US_Different url" name="_4" time="7.365">
+        <system-out>
+            <![CDATA[Given user is on "fb_url" page..............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

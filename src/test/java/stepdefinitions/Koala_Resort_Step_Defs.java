@@ -1,11 +1,17 @@
 package stepdefinitions;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+import org.openqa.selenium.support.ui.Select;
 import pages.KoalaResort_Page;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ReusableMethods;
+
+import java.io.IOException;
+import java.util.List;
 
 public class Koala_Resort_Step_Defs {
     KoalaResort_Page koalaResortPage=new KoalaResort_Page();
@@ -75,6 +81,46 @@ public class Koala_Resort_Step_Defs {
         koalaResortPage.password.sendKeys(string);
 
     }
+
+    @Given("user enters manager_username and manager_password")
+    public void user_enters_manager_username_and_manager_password(DataTable dataTable) {
+     List<String> data=dataTable.row(0);
+
+        koalaResortPage.username.sendKeys(data.get(0));
+        koalaResortPage.password.sendKeys(data.get(1));
+    }
+
+    @Given("user enters all required fields")
+    public void user_enters_all_required_fields(DataTable dataTable) {
+       List<String>allData=dataTable.row(1);
+
+        Select select=new Select(koalaResortPage.IdUser);
+        select.selectByIndex(Integer.parseInt(allData.get(0)));
+        Select select1=new Select(koalaResortPage.SelectHotelRoom);
+        select1.selectByIndex(Integer.parseInt(allData.get(1)));
+
+        koalaResortPage.Price.sendKeys(allData.get(2));
+        koalaResortPage.dateStart.sendKeys(allData.get(3));
+        koalaResortPage.dateEnd.sendKeys(allData.get(4));
+        koalaResortPage.adultAmount.sendKeys(allData.get(5));
+        koalaResortPage.childrenAmount.sendKeys(allData.get(6));
+        koalaResortPage.contactInfo.sendKeys(allData.get(7));
+        koalaResortPage.contactPhone.sendKeys(allData.get(8));
+        ReusableMethods.waitFor(2);
+        koalaResortPage.contactEmail.sendKeys(allData.get(9));
+        koalaResortPage.notes.sendKeys(allData.get(10));
+        ReusableMethods.waitFor(2);
+
+
+    }
+
+    @Then("capture the screenshot")
+    public void capture_the_screenshot() throws IOException {
+        ReusableMethods.getScreenshot("taking screen shot");
+        ReusableMethods.waitFor(2);
+    }
+
+
 
 
 

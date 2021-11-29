@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8519212400,
+              "duration": 6032694100,
               "status": "passed"
             },
             "line": 5,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-22T11:40:41.178Z",
+        "start_timestamp": "2021-11-29T21:57:30.486Z",
         "before": [
           {
             "result": {
-              "duration": 2033200,
+              "duration": 4288100,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 2864775800,
+              "duration": 968362400,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2648694300,
+              "duration": 233595300,
               "status": "passed"
             },
             "line": 8,
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 1133219400,
+              "duration": 1157046600,
               "status": "passed"
             },
             "line": 9,
@@ -81,7 +81,7 @@
         ],
         "tags": [
           {
-            "name": "@report2"
+            "name": "@yandex"
           }
         ]
       },
@@ -94,7 +94,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5360027900,
+              "duration": 3526476700,
               "status": "passed"
             },
             "line": 5,
@@ -107,7 +107,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-22T11:40:56.408Z",
+        "start_timestamp": "2021-11-29T21:57:38.955Z",
         "before": [
           {
             "result": {
@@ -125,7 +125,7 @@
         "after": [
           {
             "result": {
-              "duration": 1289201300,
+              "duration": 1115236100,
               "status": "passed"
             },
             "match": {
@@ -138,7 +138,7 @@
         "steps": [
           {
             "result": {
-              "duration": 425877200,
+              "duration": 176878100,
               "status": "passed"
             },
             "line": 11,
@@ -150,7 +150,7 @@
           },
           {
             "result": {
-              "duration": 2266930100,
+              "duration": 1444780100,
               "status": "passed"
             },
             "line": 12,
@@ -163,7 +163,7 @@
         ],
         "tags": [
           {
-            "name": "@report2"
+            "name": "@yandex"
           }
         ]
       }
@@ -175,7 +175,7 @@
     "uri": "file:src/test/resources/features/US03_Yandex_Arama.feature",
     "tags": [
       {
-        "name": "@report2",
+        "name": "@yandex",
         "type": "Tag",
         "location": {
           "line": 1,
@@ -185,10 +185,10 @@
     ]
   },
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-11-22T11:41:05.792Z",
+        "start_timestamp": "2021-11-29T21:57:45.281Z",
         "before": [
           {
             "result": {
@@ -199,14 +199,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "TC01 user can login",
+        "line": 34,
+        "name": "TC01_manger_should_create_hotel_reservation",
         "description": "",
-        "id": "us@wip07-koala-resort-positive-login;tc01-user-can-login",
+        "id": "us12-user-should-be-able-reserve-the-room;tc01-manger-should-create-hotel-reservation;test-data;2",
         "after": [
           {
             "result": {
-              "duration": 815964300,
+              "duration": 597461100,
               "status": "passed"
             },
             "match": {
@@ -215,11 +215,11 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 7738808200,
+              "duration": 7804059600,
               "status": "passed"
             },
             "line": 6,
@@ -231,7 +231,7 @@
           },
           {
             "result": {
-              "duration": 961398200,
+              "duration": 934907100,
               "status": "passed"
             },
             "line": 7,
@@ -243,31 +243,43 @@
           },
           {
             "result": {
-              "duration": 189625100,
+              "duration": 208312100,
               "status": "passed"
             },
             "line": 8,
-            "name": "write the username",
+            "name": "user write the username \"manager\"",
             "match": {
-              "location": "stepdefinitions.Koala_Resort_Step_Defs.write_the_username()"
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_write_the_username(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 186104100,
+              "duration": 205121400,
               "status": "passed"
             },
             "line": 9,
-            "name": "write the password",
+            "name": "user write the password \"Manager1!\"",
             "match": {
-              "location": "stepdefinitions.Koala_Resort_Step_Defs.write_the_password()"
+              "arguments": [
+                {
+                  "val": "\"Manager1!\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_write_the_password(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5693675400,
+              "duration": 4834269600,
               "status": "passed"
             },
             "line": 10,
@@ -279,32 +291,669 @@
           },
           {
             "result": {
-              "duration": 133795900,
+              "duration": 102855800,
               "status": "passed"
             },
             "line": 11,
-            "name": "Verify the login is success",
+            "name": "verify login page is displayed",
             "match": {
-              "location": "stepdefinitions.Koala_Resort_Step_Defs.verify_the_login_is_success()"
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.verify_login_page_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3175500200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user navigates create_room_page",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_navigates_create_room_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 471067300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters IDUser \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_id_user(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 438667300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters IDHotel \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_id_hotel(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207734700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters the price \"1000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_price(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263915400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters  the date_starts \"11/30/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11/30/2021\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_date_starts(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 272500500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters the date_end \"11/30/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11/30/2021\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_date_end(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180524700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters  the  adult_amount \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_adult_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147965300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters  the children_amount \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_children_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142072400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters  the contact_name \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3171272200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters  the contact_phone \"5463456345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5463456345\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_phone(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249423500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters  the contact_email \"test2@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test2@gmail.com\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139995900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters  the notes \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_notes(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129493600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on the approved checkbox",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_approved_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2121730800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks on the is_paid checkbox",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_is_paid_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2143218100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on the save_button",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6229850600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user verifies the success_message",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@report2"
+            "name": "@room_reservation"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-29T21:58:19.497Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "TC01_manger_should_create_hotel_reservation",
+        "description": "",
+        "id": "us12-user-should-be-able-reserve-the-room;tc01-manger-should-create-hotel-reservation;test-data;3",
+        "after": [
+          {
+            "result": {
+              "duration": 617653300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3022172400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on koala Resort page",
+            "match": {
+              "location": "stepdefinitions.Koala_Resort_Step_Defs.user_is_on_koala_resort_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5507857700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click Log in button",
+            "match": {
+              "location": "stepdefinitions.Koala_Resort_Step_Defs.click_log_in_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 189962300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user write the username \"manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_write_the_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292525500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user write the password \"Manager1!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager1!\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_write_the_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4943323800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click the log in button",
+            "match": {
+              "location": "stepdefinitions.Koala_Resort_Step_Defs.click_the_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96118600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify login page is displayed",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.verify_login_page_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3250024600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user navigates create_room_page",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_navigates_create_room_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 503017100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters IDUser \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_id_user(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 334688700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters IDHotel \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_id_hotel(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186057300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters the price \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_price(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319171200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters  the date_starts \"12/04/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12/04/2021\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_date_starts(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209968000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters the date_end \"11/30/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11/30/2021\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_date_end(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118926500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters  the  adult_amount \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_adult_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250678600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters  the children_amount \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_children_amount(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132828800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters  the contact_name \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3194512900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters  the contact_phone \"5463456345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5463456345\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_phone(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174307400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user enters  the contact_email \"test2@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test2@gmail.com\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_contact_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141190100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters  the notes \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_enters_the_notes(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131793400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on the approved checkbox",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_approved_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2153357800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks on the is_paid checkbox",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_is_paid_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2108341000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on the save_button",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_clicks_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6249833000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user verifies the success_message",
+            "match": {
+              "location": "stepdefinitions.Room_Reservation_Step_Defs.user_verifies_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@room_reservation"
           }
         ]
       }
     ],
-    "name": "US@wip07_Koala_Resort_Positive_Login",
+    "name": "US12_User should be able reserve the room",
     "description": "",
-    "id": "us@wip07-koala-resort-positive-login",
+    "id": "us12-user-should-be-able-reserve-the-room",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US07_Koala_Resort_Positive_Login.feature",
+    "uri": "file:src/test/resources/features/US12_Room_Reservation2.feature",
     "tags": [
       {
-        "name": "@report2",
+        "name": "@room_reservation",
         "type": "Tag",
         "location": {
           "line": 1,

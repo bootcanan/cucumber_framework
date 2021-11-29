@@ -1,0 +1,188 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-29T21:56:38.616Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6464100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "",
+        "description": "",
+        "id": "us-different-url;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7329764100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13757906800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"amazon_url\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazon_url\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_is_on_the_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-29T21:56:59.764Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "",
+        "description": "",
+        "id": "us-different-url;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 5367858100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5187620100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"yandex_url\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yandex_url\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_is_on_the_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-29T21:57:10.414Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "us-different-url;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1540683500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5820574500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"fb_url\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fb_url\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.Google_Search_Step_Defs.user_is_on_the_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "US_Different url",
+    "description": "",
+    "id": "us-different-url",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US06_different_url.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

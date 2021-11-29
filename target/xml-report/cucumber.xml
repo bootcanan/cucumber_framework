@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="40.957">
-    <testcase classname="US03_Yandex Arama" name="TC03 Iphone arama" time="15.199">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="83.562">
+    <testcase classname="US03_Yandex Arama" name="TC03 Iphone arama" time="8.425">
         <system-out>
             <![CDATA[Given user is on the yandex page............................................passed
 When user search for iphone on yandex.......................................passed
@@ -8,7 +8,7 @@ Then verify the result is iphone on yandex..................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US03_Yandex Arama" name="TC03 Tea pot arama" time="9.344">
+    <testcase classname="US03_Yandex Arama" name="TC03 Tea pot arama" time="6.265">
         <system-out>
             <![CDATA[Given user is on the yandex page............................................passed
 When user search tea pot on yandex..........................................passed
@@ -16,14 +16,57 @@ Then verify the result is tea pot on yandex.................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US@wip07_Koala_Resort_Positive_Login" name="TC01 user can login" time="15.726">
+    <testcase classname="US12_User should be able reserve the room" name="TC01_manger_should_create_hotel_reservation" time="34.19">
         <system-out>
             <![CDATA[Given user is on koala Resort page..........................................passed
 Then click Log in button....................................................passed
-And write the username......................................................passed
-And write the password......................................................passed
+And user write the username "manager".......................................passed
+And user write the password "Manager1!".....................................passed
 And click the log in button.................................................passed
-Then Verify the login is success............................................passed
+And verify login page is displayed..........................................passed
+And user navigates create_room_page.........................................passed
+And user enters IDUser "5"..................................................passed
+And user enters IDHotel "3".................................................passed
+And user enters the price "1000"............................................passed
+And user enters  the date_starts "11/30/2021"...............................passed
+And user enters the date_end "11/30/2021"...................................passed
+And user enters  the  adult_amount "2"......................................passed
+And user enters  the children_amount "2"....................................passed
+And user enters  the contact_name "test"....................................passed
+And user enters  the contact_phone "5463456345".............................passed
+And user enters  the contact_email "test2@gmail.com"........................passed
+And user enters  the notes "test"...........................................passed
+And user clicks on the approved checkbox....................................passed
+And user clicks on the is_paid checkbox.....................................passed
+And user clicks on the save_button..........................................passed
+Then user verifies the success_message......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US12_User should be able reserve the room" name="TC01_manger_should_create_hotel_reservation_2" time="34.144">
+        <system-out>
+            <![CDATA[Given user is on koala Resort page..........................................passed
+Then click Log in button....................................................passed
+And user write the username "manager".......................................passed
+And user write the password "Manager1!".....................................passed
+And click the log in button.................................................passed
+And verify login page is displayed..........................................passed
+And user navigates create_room_page.........................................passed
+And user enters IDUser "3"..................................................passed
+And user enters IDHotel "4".................................................passed
+And user enters the price "100".............................................passed
+And user enters  the date_starts "12/04/2021"...............................passed
+And user enters the date_end "11/30/2021"...................................passed
+And user enters  the  adult_amount "5"......................................passed
+And user enters  the children_amount "0"....................................passed
+And user enters  the contact_name "test"....................................passed
+And user enters  the contact_phone "5463456345".............................passed
+And user enters  the contact_email "test2@gmail.com"........................passed
+And user enters  the notes "test"...........................................passed
+And user clicks on the approved checkbox....................................passed
+And user clicks on the is_paid checkbox.....................................passed
+And user clicks on the save_button..........................................passed
+Then user verifies the success_message......................................passed
 ]]>
         </system-out>
     </testcase>

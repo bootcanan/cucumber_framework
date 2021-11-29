@@ -1,5 +1,5 @@
 Feature:Google_Search
-@report1
+@smoke
   Scenario: Search_iphone
     Given user is on the google page
     And   user search for iphone

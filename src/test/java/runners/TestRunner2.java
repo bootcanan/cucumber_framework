@@ -20,13 +20,13 @@ tag:which feature files to run.
 */
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin={"html:target\\cucumber-report2.html",
-                "json:target/json-reports/cucumber.json",
-                "junit:target/xml-report/cucumber.xml"},
+        plugin = {"html:target\\cucumber-reports.html",
+                "json:target/cucumber-report/cucumber.json"
+        },
 
 features = "src/test/resources/features",
 glue = "stepdefinitions",
-        tags = "@report2",
+        tags = "@",
      dryRun=false
 
 
