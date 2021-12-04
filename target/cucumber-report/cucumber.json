@@ -1,1 +1,143 @@
-[]
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-03T22:54:48.885Z",
+        "line": 5,
+        "name": "Read_hotel_Reservation",
+        "description": "",
+        "id": "read-database;read-hotel-reservation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2767600100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user connects the database",
+            "match": {
+              "location": "database_step_definitions.DB_first_Defs.user_connects_the_database()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 436652800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user gets \"Email\" from \"tHOTEL\" table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Email\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"tHOTEL\"",
+                  "offset": 23
+                }
+              ],
+              "location": "database_step_definitions.DB_first_Defs.user_gets_from_table(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2166245100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user gets all rows from the \"Email\" column",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Email\"",
+                  "offset": 28
+                }
+              ],
+              "location": "database_step_definitions.DB_first_Defs.user_gets_all_rows_from_the_column(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db_first"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-03T22:54:54.431Z",
+        "line": 14,
+        "name": "User update email",
+        "description": "",
+        "id": "read-database;user-update-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1287571800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user connects the database",
+            "match": {
+              "location": "database_step_definitions.DB_first_Defs.user_connects_the_database()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163718100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "updates the Email with \"elveda@gmail.com\" where the IDHotel value is 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"elveda@gmail.com\"",
+                  "offset": 23
+                },
+                {
+                  "val": "5",
+                  "offset": 69
+                }
+              ],
+              "location": "database_step_definitions.DB_first_Defs.updates_the_email_with_where_the_id_hotel_value_is(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db_first"
+          },
+          {
+            "name": "@db_update"
+          }
+        ]
+      }
+    ],
+    "name": "Read_database",
+    "description": "",
+    "id": "read-database",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/db_feature/db_first.feature",
+    "tags": [
+      {
+        "name": "@db_first",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
